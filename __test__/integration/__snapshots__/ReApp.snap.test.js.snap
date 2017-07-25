@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo app renders correctly Snapshot should be identical 1`] = `
+<div>
+  <input
+    onKeyUp={[Function]}
+    placeholder="Add item..."
+    type="text"
+  />
+  <ul />
+  <div>
+    0
+     item(s) in list.
+  </div>
+</div>
+`;
