@@ -8,7 +8,9 @@
     "start": "webpack-dev-server --env development",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
-    "test:all": "jest --coverage --watch"
+    "test:all": "jest --coverage --watch",
+	"cypress:open": "cypress open",
+	"cypress:run": "cypress run --record --key a1ba0bc2-b2d9-4a71-9db9-2593decae0b3"
   },
   "keywords": [],
   "author": "",

@@ -34,7 +34,7 @@ export function ReAppTpl({ add, remove, list }) {
 	return (		
 		<div>
 			<input type="text" onKeyUp={add} placeholder="Add item..." />
-			<ul>{todoList}</ul>
+			<ul className="list">{todoList}</ul>
 			<div>{computeCount(list)} item(s) in list.</div>
 		</div>
 	);
